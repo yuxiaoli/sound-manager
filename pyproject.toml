@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sound-manager"
+version = "0.1.0"
+description = ""
+authors = ["sean <sean.li@vectorindex.cloud>"]
+readme = "README.md"
+packages = [{include = "sound_manager", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cmd2 = "^2.5.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
